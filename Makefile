@@ -19,7 +19,7 @@ OBJS = ${SRCS:.c=.o}
 
 CC = cc
 
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -g -Wall -Wextra -Werror
 
 MLX = -L./mlx -lmlx -lX11 -lXext
 
