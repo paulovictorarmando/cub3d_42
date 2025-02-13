@@ -31,7 +31,7 @@ static void	new_line(char ***args, char *line, int nl)
 	tmp[i + 1] = NULL;
 	if (*args)
 		free(*args);
-	*args = tmp;	
+	*args = tmp;
 }
 
 char	**read_file(int fd)
@@ -39,7 +39,7 @@ char	**read_file(int fd)
 	char	**args;
 	char	*line;
 	char	*tmp;
-	int	nl;
+	int		nl;
 
 	if (fd < 0)
 		return (0);
