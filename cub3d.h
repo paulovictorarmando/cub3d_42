@@ -29,4 +29,5 @@
 # include <X11/X.h>
 # include <X11/keysym.h>
 
+char	**read_file(int fd);
 #endif

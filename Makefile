@@ -12,7 +12,7 @@
 
 NAME = cub3D
 
-SRCS = main.c
+SRCS = main.c read_file.c
 
 
 OBJS = ${SRCS:.c=.o}
